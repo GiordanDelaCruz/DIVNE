@@ -89,6 +89,10 @@ a:hover {
   height: 28rem;
 }
 
+.img-thumbnail{
+  height: 80%; 
+}
+
 .img-carousel{
   margin: auto;
   width: 60%;
@@ -107,10 +111,22 @@ a:hover {
   text-align: center;
 }
 
+.fixed-top.scrolled{
+  background-color: black !important;
+  transition: background-color 200ms linear;
+}
+
 .nav-link-1,
 .nav-link-2,
 .nav-link-3{
   color: black;
+}
+
+
+.nav-link-1.scrolled,
+.nav-link-2.scrolled,
+.nav-link-3.scrolled{
+  color: white;
 }
 
 .nav-link-1:hover{
@@ -127,11 +143,12 @@ a:hover {
 
 /* Intro Section */
 .intro-container{
-  background-image: url('../images/iridescent-img.jpg');
-	background-position: right center;
+  /* background-image: url('../images/iridescent-img.jpg'); */
+  background-image: url('../images/intro-cover.jpg');
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-  padding: 1rem 2rem 5rem;
+  padding: 7rem 2rem 30rem;
   text-align: center;
   width: 100%;
 
@@ -194,7 +211,7 @@ a:hover {
 
 /* Subscibe Section */
 #subscibe{
-  background-image: url('../images/guitar-1.jpg');
+  background-image: url('../images/guitar-2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

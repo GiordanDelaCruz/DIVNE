@@ -90,7 +90,7 @@ a:hover {
 }
 
 .img-thumbnail{
-  height: 80%; 
+  height: 80%;
 }
 
 .img-carousel{
@@ -148,7 +148,7 @@ a:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-  padding: 7rem 2rem 30rem;
+  padding: 20rem 2rem 30rem;
   text-align: center;
   width: 100%;
 

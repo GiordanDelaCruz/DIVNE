@@ -70,6 +70,10 @@ a:hover {
   text-shadow: 1px 1px 2px #393e46, 0 0 25px #000, 0 0 5px #929aab;
 }
 
+.header-img{
+  height: 10rem;
+}
+
 /* Paragraphs */
 .bigger-text{
   font-size: 1.3rem;
@@ -86,7 +90,7 @@ a:hover {
 
 /* Images */
 .img-box{
-  height: 28rem;
+  width: 80%;
 }
 
 .img-thumbnail{
@@ -147,7 +151,7 @@ a:hover {
   background-image: url('../images/intro-cover.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto;
   padding: 20rem 2rem 30rem;
   text-align: center;
   width: 100%;
@@ -214,7 +218,7 @@ a:hover {
   background-image: url('../images/guitar-2.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   padding: 3rem 2rem 4rem;
 }
 

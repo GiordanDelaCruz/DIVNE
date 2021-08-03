@@ -17,6 +17,10 @@ a{
   font-weight: 300;
 }
 
+a:hover {
+ text-decoration: none;
+}
+
 /*************************************************************************************************/
 /*                                      Class Selectors                                          */
 /*************************************************************************************************/
@@ -28,7 +32,7 @@ a{
   font-weight: 300;
   letter-spacing: 0.04em;
   margin: 0 0 2rem;
-  text-shadow: 1px 1px 4px #40E0D0, 0 0 25px #f0f0f0, 0 0 8px #8559a5;
+  text-shadow: 1px 1px 4px #6ce3e6, 0 0 25px #f0f0f0, 0 0 9px #54e39e;
 }
 
 .main-header-2{
@@ -37,7 +41,7 @@ a{
   font-weight: 300;
   letter-spacing: 0.04em;
   margin: 0 0 2rem;
-  text-shadow: 1px 1px 4px #ffb7c5, 0 0 25px #f0f0f0, 0 0 8px #DC143C;
+  text-shadow: 1px 1px 4px #ffb7c5, 0 0 25px #f0f0f0, 0 0 9px #DC143C;
 }
 
 .main-header-3{
@@ -46,7 +50,7 @@ a{
   font-weight: 300;
   letter-spacing: 0.04em;
   margin: 0 0 2rem;
-  text-shadow: 1px 1px 4px #ffb7c5, 0 0 25px #f0f0f0, 0 0 8px #e3d27f;
+  text-shadow: 1px 1px 4px #ffb7c5, 0 0 25px #f0f0f0, 0 0 9px #e3d27f;
 }
 
 .subscribe-header{

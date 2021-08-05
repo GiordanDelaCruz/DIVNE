@@ -31,7 +31,7 @@ a:hover {
   font-size: 3.7rem;
   font-weight: 300;
   letter-spacing: 0.04em;
-  margin: 0 0 2rem;
+  margin: 0 0 3rem;
   text-shadow: 1px 1px 4px #6ce3e6, 0 0 25px #f0f0f0, 0 0 9px #54e39e;
 }
 
@@ -40,7 +40,7 @@ a:hover {
   font-size: 3.7rem;
   font-weight: 300;
   letter-spacing: 0.04em;
-  margin: 0 0 2rem;
+  margin: 0 0 3rem;
   text-shadow: 1px 1px 4px #ffb7c5, 0 0 25px #f0f0f0, 0 0 9px #DC143C;
 }
 
@@ -49,7 +49,7 @@ a:hover {
   font-size: 3.7rem;
   font-weight: 300;
   letter-spacing: 0.04em;
-  margin: 0 0 2rem;
+  margin: 0 0 3rem;
   text-shadow: 1px 1px 4px #ffb7c5, 0 0 25px #f0f0f0, 0 0 9px #e3d27f;
 }
 
@@ -87,6 +87,11 @@ a:hover {
 /* Images */
 .img-box{
   height: 28rem;
+  margin: 0 0 3rem;
+}
+
+.img-thumbnail {
+  margin: 1rem;
 }
 
 .img-carousel{
@@ -99,6 +104,18 @@ a:hover {
 }
 
 /* Navbar */
+.nav-switch.scrolled {
+  background-color: #333333 !important;
+  transition: background-color 200ms linear;
+}
+
+.nav-link-1.scrolled,
+.nav-link-2.scrolled,
+.nav-link-3.scrolled{
+  color: #fff;
+  transition: color 200ms linear;
+}
+
 .navbar-brand{
   text-align: center;
 }
@@ -131,7 +148,7 @@ a:hover {
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: cover;
-  padding: 1rem 2rem 5rem;
+  padding: 5rem 2rem 5rem;
   text-align: center;
   width: 100%;
 
@@ -194,7 +211,7 @@ a:hover {
 
 /* Subscibe Section */
 #subscibe{
-  background-image: url('../images/guitar-1.jpg');
+  background-image: url('../images/guitar-3.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

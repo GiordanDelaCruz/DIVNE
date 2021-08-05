@@ -151,8 +151,8 @@ a:hover {
   background-image: url('../images/intro-cover.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: auto;
-  padding: 20rem 2rem 30rem;
+	background-size: cover;
+  padding: 10rem 2rem 30rem;
   text-align: center;
   width: 100%;
 
@@ -218,8 +218,8 @@ a:hover {
   background-image: url('../images/guitar-3.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
-  padding: 3rem 2rem 4rem;
+  background-size: cover;
+  padding: 1rem 2rem 2em;
 }
 
 /* Footer section */

@@ -21,6 +21,10 @@ a:hover {
  text-decoration: none;
 }
 
+button{
+  font-family: 'Montserrat', sans-serif;
+}
+
 /*************************************************************************************************/
 /*                                      Class Selectors                                          */
 /*************************************************************************************************/
@@ -73,6 +77,29 @@ a:hover {
 /* Paragraphs */
 .bigger-text{
   font-size: 1.3rem;
+}
+
+/* Buttons */
+.btn-spotify{
+  background-color: #1DB954;
+  color: white;
+  margin: 0 0.5rem;
+}
+
+.btn-spotify:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-twitch{
+  background-color: #6441a5;
+  color: white;
+  margin: 0 0.5rem;
+}
+
+.btn-twitch:hover{
+  background-color: #fff;
+  color: #000;
 }
 
 /* Containers */
@@ -148,7 +175,7 @@ a:hover {
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: cover;
-  padding: 5rem 2rem 5rem;
+  padding: 5rem 2rem 3rem;
   text-align: center;
   width: 100%;
 

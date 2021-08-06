@@ -31,30 +31,36 @@ button{
 
 /* Headers */
 .main-header{
-  color: #000;
+  /* color: #000; */
   font-size: 3.7rem;
   font-weight: 300;
   letter-spacing: 0.04em;
   margin: 0 0 3rem;
-  text-shadow: 1px 1px 4px #6ce3e6, 0 0 25px #f0f0f0, 0 0 9px #54e39e;
+  /* text-shadow: 1px 1px 4px #6ce3e6, 0 0 25px #f0f0f0, 0 0 9px #54e39e; */
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .main-header-2{
-  color: #000;
+  /* color: #000; */
   font-size: 3.7rem;
   font-weight: 300;
   letter-spacing: 0.04em;
   margin: 0 0 3rem;
-  text-shadow: 1px 1px 4px #ffb7c5, 0 0 25px #f0f0f0, 0 0 9px #DC143C;
+  /* text-shadow: 1px 1px 4px #ffb7c5, 0 0 25px #f0f0f0, 0 0 9px #DC143C; */
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .main-header-3{
-  color: #000;
+  /* color: #000; */
   font-size: 3.7rem;
   font-weight: 300;
   letter-spacing: 0.04em;
   margin: 0 0 3rem;
-  text-shadow: 1px 1px 4px #ffb7c5, 0 0 25px #f0f0f0, 0 0 9px #e3d27f;
+  /* text-shadow: 1px 1px 4px #ffb7c5, 0 0 25px #f0f0f0, 0 0 9px #e3d27f; */
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .subscribe-header{
@@ -100,6 +106,16 @@ button{
 .btn-twitch:hover{
   background-color: #fff;
   color: #000;
+}
+
+.btn-mail-chimp{
+  background-color: #FFE01B;
+  color: #403B3B;
+}
+
+.btn-mail-chimp:hover{
+  background-color: #403B3B;
+  color: #FFE01B;
 }
 
 /* Containers */
@@ -171,11 +187,11 @@ button{
 
 /* Intro Section */
 .intro-container{
-  background-image: url('../images/iridescent-img.jpg');
+  background-image: url('../images/intro-cover-1.jpg');
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: cover;
-  padding: 5rem 2rem 3rem;
+  padding: 20rem 2rem 5rem;
   text-align: center;
   width: 100%;
 
@@ -251,12 +267,14 @@ button{
 }
 
 .cta-header{
-  color: #000;
+  /* color: #000; */
   font-size: 3.7rem;
   font-weight: 300;
   letter-spacing: 0.04em;
   margin: 0 0 2rem;
-  text-shadow: 1px 1px 4px #ff8c00, 0 0 25px #f0f0f0, 0 0 8px #e3d27f;
+  /* text-shadow: 1px 1px 4px #ff8c00, 0 0 25px #f0f0f0, 0 0 8px #e3d27f; */
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /* Social Icons */
